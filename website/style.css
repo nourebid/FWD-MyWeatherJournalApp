@@ -1,0 +1,87 @@
+body {
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+
+}
+
+/* App */
+#app {
+    margin: 40px;
+}
+
+
+/* Header */
+.mainHeader {
+    margin: 0 auto;
+    border: 3px solid ;
+    padding: 2px 3px;
+    width: 90%;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 5vh;
+}
+/* End of Header */
+
+/* Container */
+.container {
+    margin:30px auto;
+    border: 2px solid ;
+    padding: 20px 3px;
+    width: 90%;
+}
+
+.zipCodeDiv {
+    padding: 10px 10px;
+    display: block;
+    float: none;
+}
+
+.zipCodeDiv input {
+    margin: 10px 0px;
+    display: block;
+    background-color: transparent;
+    outline: whitesmoke;
+}
+
+.userFeeling {
+    padding: 10px 10px;
+}
+
+.userFeeling textarea {
+    margin: 10px 0px;
+    display: block;
+    background-color: transparent;
+}
+
+
+h2, label, button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+
+}
+/* End of Container */
+
+/* use entries */
+.userEntries {
+    margin:30px auto;
+    border: 2px solid ;
+    padding: 20px 3px;
+    width: 90%;
+}
+
+h2 {
+    padding: 10px 10px;
+    
+}
+/* End of use entries */
+
+.entriesList {
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    font-weight: 300;
+    padding: 10px 10px;
+}

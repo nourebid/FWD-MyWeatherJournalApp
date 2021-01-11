@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Righteous&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>My Weather Journal App</title>
+</head>
+<body>
+    <div id = "app">
+        <header class="mainHeader">
+            <h1>My Weather Journal App</h1>
+        </header>
+        
+        <div class="container">
+            <div class="zipCodeDiv">
+                <label for="zipCode">Enter Your City Zip Code</label>
+                <input type="text" id="zipCode" placeholder="Zip Code">
+            </div>
+    
+            <div class="userFeeling">
+                <label for="feeling">how are you feeling today?</label>
+                <textarea name="userInput" id="feeling" cols="21" rows="5"></textarea>
+                <button id="submit" type="submit">Generate</button>
+            </div>
+        </div>
+
+        <div class="userEntries">
+            <h2 class="myEntry">Weather Results</h2>
+            <div class="entriesList">
+                <div id="date"></div>
+                <div id="temp"></div>
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
+
+<!-- 
+
+  <div class ="holder feel">
+    <label for="feelings">How are you feeling today?</label>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+    <button id="generate" type = "submit"> Generate </button>
+  </div>
+
+  <div class ="holder entry">
+    <div class = "title">Most Recent Entry</div>
+
+    <div id = "entryHolder">
+        <div id = "date"></div> 
+        <div id = "temp"></div>
+        <div id = "content"></div>
+    </div>
+  </div> -->
